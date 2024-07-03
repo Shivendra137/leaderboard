@@ -8,7 +8,7 @@ const { default: axios } = require("axios");
 const { expressMiddleware } = require("@apollo/server/express4");
 
 
-mongoose.connect('mongodb://localhost:27017/ldboardApp').then(() => console.log('mongodb is connected'))
+
 async function startServer() {
   const app = express();
 
